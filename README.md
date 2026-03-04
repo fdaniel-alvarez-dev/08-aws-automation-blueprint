@@ -1,4 +1,4 @@
-# 08-aws-automation-blueprint
+# 08-aws-reliability-security
 
 A production-minded Database Reliability Engineering toolkit: HA lab, backup/PITR drills, and zero-downtime migration playbooks.
 
