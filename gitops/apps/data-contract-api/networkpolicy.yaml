@@ -1,0 +1,12 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: data-contract-deny-all
+  namespace: data-contract
+spec:
+  podSelector:
+    matchLabels:
+      app: data-contract-api
+  policyTypes:
+    - Ingress
+    - Egress
